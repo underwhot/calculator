@@ -1,5 +1,9 @@
 @import './nullstyle.scss';
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
@@ -37,6 +41,7 @@ body {
     color: #e2ebf0;
     background-color: #000;
     border-radius: 50px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
   }
 }
 
@@ -72,9 +77,11 @@ body {
       background: -moz-linear-gradient(175deg,#ffafbd 0%, #ffc3a0 80%);
       border: 5px solid #000;
       border-radius: 50px;
+      box-shadow: 0 0 20px #000;
 		}
 }
 .item {
+ 
 
 		&__title {
       margin: 20px 0 18px 0;
@@ -170,6 +177,8 @@ body {
       background-color: #F6F6F6;
       border: 2px solid #000;
       border-radius: 25px;
+      overflow: hidden;
+      // word-wrap: break-word;
 		}
 }
 
@@ -197,5 +206,6 @@ body {
     color: #e2ebf0;
     background-color: #000;
     border-radius: 50px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
   }
 }

@@ -1,22 +1,79 @@
 /* <760px */
 
 @media (max-width: 760px) {
+  .header {
+    margin: 20px 0 30px 0;
+  }
+  
   .header__text {
     margin: 0 auto;
-    width: 600px;
+    width: 320px;
     height: 75px;
     line-height: 75px;
-    font-size: 48px;
+    font-size: 30px;
   }
+
+  /* CARD > */
+
+  .calc__row {
+  }
+
+  .calc__column {
+  }
+
+  .calc__item {
+    width: 300px;
+    height: 300px;
+  }
+
+  .item__title {
+    margin-top: 26px;
+    font-size: 24px;
+  }
+
+  .item__row {
+  }
+
+  .item__calculate {
+  }
+
+  .item__calculate a {
+    font-size: 20px;
+  }
+
+  .item__calculate a:hover {
+    transform: none;
+    color: #E2EBF0;
+  }
+
+  .item___number {
+    width: 150px;
+  }
+
+  .item__clear a {
+    font-size: 20px;
+  }
+  .item__clear a:hover {
+    transform: none;
+    color: #E2EBF0;
+  }
+
+  .item__result {
+    width: 80px;
+  }
+
+
+
+  /* CARD <  */
 
   .footer__text {
     margin: 0 auto;
   }
 
   .footer__text a {
-    width: 250px;
+    width: 200px;
     height: 50px;
-    font-size: 20px;
+    font-size: 18px;
     line-height: 50px;
   }
 }
